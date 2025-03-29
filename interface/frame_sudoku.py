@@ -10,6 +10,10 @@ class FrameSudoku(Frame):
 
         self.font_sudoku="verdana 30"
         self.font_info="verdana 10"
+        if True:
+        	self.font_sudoku="verdana 12"
+        	self.font_info="verdana 4"
+        	
 
         self.frame_sudoku=Frame(self,width=535,height=535,bg='grey30')
         self.frame_sudoku.pack(side=LEFT)
